@@ -1,6 +1,6 @@
 cask "uzumaki" do
-  version "0.1.0"
-  sha256 "1aca783320ae6816b6e0a522b57603e210c8077020b830362928ef43ffc2e849"
+  version "0.1.1"
+  sha256 "963ee5414d2d72923280043ead7afe2a5704ad47ec81f9866e2703d61fb03c58"
 
   url "https://github.com/hanami117/uzumaki/releases/download/v#{version}/Uzumaki-#{version}.dmg"
   name "Uzumaki"
