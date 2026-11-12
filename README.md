@@ -9,7 +9,8 @@ This tap installs the macOS app (Apple silicon, macOS 13 Ventura or later) and t
 brew install --cask hanami117/uzumaki/uzumaki
 ```
 
-That command adds the tap by itself. You can also add it first with `brew tap hanami117/uzumaki`, then run `brew install --cask uzumaki`.
+That command adds the tap and marks the cask as trusted. Homebrew 7 and later loads casks from other taps only when they are trusted.
+If you add the tap with `brew tap hanami117/uzumaki` instead, run `brew trust --cask hanami117/uzumaki/uzumaki` before `brew install --cask uzumaki`.
 
 ### First launch
 
